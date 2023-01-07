@@ -4,8 +4,8 @@ public class Calculator {
     public void adding() {
         int one = 1;
         int two = 2;
-        int result = one + two;
-        System.out.println("1 + 2 = " + result);
+        int addResult = one + two;
+        System.out.println("1 + 2 = " + addResult);
     }
     public void substraction() {
         int three = 3;
