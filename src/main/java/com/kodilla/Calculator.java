@@ -8,8 +8,8 @@ public class Calculator {
         System.out.println("1 + 2 = " + result);
     }
     public void substraction() {
-        int three = 1;
-        int four = 2;
+        int three = 3;
+        int four = 4;
         int subResult = four - three;
         System.out.println("4 - 3 = " + subResult);
     }
