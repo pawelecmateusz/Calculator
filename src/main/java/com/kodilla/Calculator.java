@@ -1,0 +1,21 @@
+package com.kodilla;
+
+public class Calculator {
+    public void adding() {
+        int one = 1;
+        int two = 2;
+        int result = one + two;
+        System.out.println("1 + 2 = " + result);
+    }
+    public void substraction() {
+        int three = 1;
+        int four = 2;
+        int subResult = four - three;
+        System.out.println("4 - 3 = " + subResult);
+    }
+    public static void main(String[] args) {
+        Calculator calculator = new Calculator();
+        calculator.adding();
+        calculator.substraction();
+    }
+}
