@@ -1,13 +1,13 @@
 package com.kodilla;
 
 public class Calculator {
-    public void addNumbers() {
+    public void add() {
         int one = 1;
         int two = 2;
         int addResult = one + two;
         System.out.println("1 + 2 = " + addResult);
     }
-    public void subtractNumbers() {
+    public void subtract() {
         int three = 3;
         int four = 4;
         int subResult = four - three;
@@ -15,7 +15,7 @@ public class Calculator {
     }
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
-        calculator.addNumbers();
-        calculator.subtractNumbers();
+        calculator.add();
+        calculator.subtract();
     }
 }
