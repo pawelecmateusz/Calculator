@@ -7,7 +7,7 @@ public class Calculator {
         int addResult = one + two;
         System.out.println("1 + 2 = " + addResult);
     }
-    public void substractNumbers() {
+    public void subtractNumbers() {
         int three = 3;
         int four = 4;
         int subResult = four - three;
@@ -16,6 +16,6 @@ public class Calculator {
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
         calculator.addNumbers();
-        calculator.substractNumbers();
+        calculator.subtractNumbers();
     }
 }
